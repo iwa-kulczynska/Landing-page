@@ -1,0 +1,16 @@
+/* global */
+$font-text: 'Roboto Slab', serif;
+$transition: all 3s;
+
+*, *::before, *::after {
+    box-sizing: border-box; 
+}
+ body {
+    margin: 0;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+    font-weight: 200;
+}

@@ -1,0 +1,15 @@
+/* global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+}
+/*# sourceMappingURL=style.css.map */
