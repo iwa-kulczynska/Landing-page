@@ -1,5 +1,10 @@
 /* global */
 $font-text: 'Roboto Slab', serif;
+$font-header: 'Montserrat', sans-serif;
+$font-details: 'Lora', serif;
+$font-brand: 'Great Vibes', cursive;
+$color-main: #fff;
+$color-details: #fed136;
 $transition: all 3s;
 
 *, *::before, *::after {
@@ -13,4 +18,99 @@ $transition: all 3s;
     line-height: 1.7;
     font-family: $font-text;
     font-weight: 200;
+}
+
+.btn {
+    display: inline-block;
+    margin: 24px auto 0 auto;
+    color: #fff;
+    padding: 16px 30px;
+    border-radius: 5px;
+    font-family: $font-text;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fed136;
+  
+
+}
+.btn:hover {
+    background-color: #fff;
+    color: $color-details;
+}
+
+/*header*/
+
+.main-header {
+    background-image: url("/images/Background-image.jpg");
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-header {
+    text-align: center ;
+}
+
+.title-header {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.inner-header {
+    font-family: $font-details;
+    font-size: 45px;
+    font-weight: 300;
+    font-style: italic;
+
+
+}
+/*navigation*/
+.navigation {
+    padding: 12px 0;
+    text-align: right;
+  
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0 36px 0 0;
+    position: relative;
+}
+
+.navigation .navbar-nav {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $font-header;
+    
+}
+
+.navigation .navbar-nav:hover {
+    color: $color-details;
+    
+    
+}
+
+.brand {
+    text-align: left;
+}
+
+.navbar-brand {
+    color: $color-details;
+    text-decoration: none;
+    font-family: $font-brand;
+    font-size: 32px;
+    
 }
