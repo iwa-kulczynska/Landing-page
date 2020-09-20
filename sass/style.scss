@@ -203,8 +203,9 @@ $transition: all 3s;
     background-color: #f7f7f7;
   
 }
-
-
+.card {
+width: 18rem;
+}
 .card-img-top {
     margin-bottom: -25px;
 }
@@ -282,10 +283,13 @@ $transition: all 3s;
 
     /* global */
 
-    .box-services {
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .services, .portfolio {
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
+
+    /* navigation */
+   
     .navigation ul {
         padding: 0;
         margin: 0;
@@ -316,15 +320,56 @@ $transition: all 3s;
     }
 
     /* section service */
-    
 
+    .box-services {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .box-services i {
         display: none;
     }
 
-    .services, .portfolio {
-        padding-bottom: 20px;
-        padding-top: 20px;
+    
+    /* section portfolio */
+
+    .card {
+        width: auto;
     }
+    .card-img-top {
+        
+        width: 100%;
+    }
+
+    // .footer{
+    //     margin: 0;
+    //     padding: 15px;
+    // }
+
+    // .footer .text-left {
+    //     text-align: center;
+    // }
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .brand {
+        text-align: center;
+    }
+    .card {
+        width: auto;
+    }
+    .card-img-top {
+        
+        width: 100%;
+    }
+
+    .navigation {
+        text-align: center;
+    }
+
+    
+    
 
 }
