@@ -43,6 +43,27 @@ $transition: all 3s;
     border: 3px $color-main solid;
 }
 
+.section-description {
+    text-align: center;
+}
+
+.section-title {
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-family: $font-header;
+    font-weight: bold;
+}
+
+.section-text {
+    color: #777;
+    margin-top: -30px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-family: $font-details;
+}
+
 /*header*/
 
 .main-header {
@@ -144,10 +165,38 @@ $transition: all 3s;
 
 .portfolio {
     background-color: #f7f7f7;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
 }
 
 .card-img-top {
     margin-bottom: -25px;
+}
+
+.card-body {
+    background-color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card-body h3 {
+    font-weight: 500;
+    padding-top: 10px;
+    color: #333333;
+}
+
+.portfolio-text {
+    padding: 10px;
+    color: #737373;
+    height: 100%
+    
+}
+
+.card-text {
+    margin-top: -25px;
+    font-size: 14px;
+    font-family: $font-details;
 }
 
 /*footer */
