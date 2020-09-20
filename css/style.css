@@ -65,13 +65,13 @@ body {
 /*header*/
 .main-header {
   background-image: url("/images/Background-image.jpg");
-  background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
-  height: 100vh;
+  min-height: 600px;
   position: relative;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 .background-tint {
@@ -113,7 +113,7 @@ body {
 }
 
 .navigation ul {
-  padding: 0;
+  padding: 15px 0 0 0;
   margin: 0;
   list-style-type: none;
 }
@@ -255,5 +255,42 @@ body {
 
 .footer span {
   font-size: 0;
+}
+
+@media (max-width: 767px) {
+  /* global */
+  .box-services {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navigation ul {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  .navigation ul li {
+    margin: 0 10px 0 0;
+  }
+  .brand {
+    text-align: center;
+  }
+  .title-header {
+    font-size: 50px;
+  }
+  .inner-header {
+    font-size: 35px;
+  }
+  .btn {
+    width: 100%;
+  }
+  /* section service */
+  .box-services i {
+    display: none;
+  }
+  .services, .portfolio {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
